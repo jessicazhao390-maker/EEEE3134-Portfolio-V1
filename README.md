@@ -1,10 +1,10 @@
 # EEEE3134 Personal Portfolio — Version 1
 
-A responsive, single-page English portfolio for **EEEE3134 Applications of AI in EEE**, built with HTML, CSS, and vanilla JavaScript. No build step, backend, API keys, packages, or external assets are required.
+A responsive, single-page English portfolio for Yueqi Zhao, an Electrical and Electronic Engineering student at the University of Nottingham Ningbo China. This AI-generated Version 1 portfolio is built with HTML, CSS, and vanilla JavaScript. No build step, backend, API keys, packages, or external assets are required.
 
 ## Files
 
-- `index.html`: Home, About Me, Research Interests, Projects, Technical Skills, and Contact.
+- `index.html`: Home, About Me, Areas of Expertise & Interest, five Featured Projects, Technical Skills, and Contact.
 - `style.css`: Responsive layouts, engineering-inspired illustrations, and reduced-motion support.
 - `script.js`: Mobile navigation, active section indication, project filtering, and the footer year.
 
@@ -18,9 +18,9 @@ python3 -m http.server 8000
 
 Then visit **http://localhost:8000**. Stop the server with `Ctrl+C`.
 
-## Personalise before publishing
+## Portfolio content
 
-The portfolio is set up for Yueqi Zhao, an Electrical and Electronic Engineering student at the University of Nottingham Ningbo China, and reflects the supplied academic interests, project descriptions, and technical skills. Email and profile URLs remain clearly marked placeholders because those details were not provided. Add them only when ready. Project copy describes the supplied research and prototype scope; no quantitative results, publications, or awards are claimed.
+The portfolio presents Yueqi Zhao's verified academic background, expected June 2027 graduation, engineering interests, technical skills, and five projects spanning autonomous robotics, Doppler radar signal processing, power electronics, research software, and IoT coursework. The Contact section includes the supplied email address and GitHub profile. Project descriptions are limited to the provided scope and outcomes; no publications, awards, unsupported metrics, or commercial claims are included.
 
 ## Deploy to GitHub Pages
 
@@ -35,7 +35,7 @@ All asset links are relative, so the site supports GitHub Pages project subpaths
 
 - Semantic sections, a skip link, visible keyboard focus, and responsive typography.
 - Mobile menu exposes its expanded state, closes after navigation, and supports Escape.
-- Project filters expose selected states and announce the number of visible concepts.
+- Project filters expose selected states and announce the number of visible projects.
 - Project scope expands using native keyboard-accessible disclosure controls.
 - With JavaScript disabled, navigation and all project content remain accessible.
 - No analytics, cookies, tracking, external fonts, or network requests are used.

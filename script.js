@@ -39,7 +39,7 @@ filters.forEach((button) => {
       project.hidden = !visible;
       if (visible) count += 1;
     });
-    document.querySelector('#filter-status').textContent = `${count} project concept${count === 1 ? '' : 's'} shown.`;
+    document.querySelector('#filter-status').textContent = `${count} project${count === 1 ? '' : 's'} shown.`;
   });
 });
 
